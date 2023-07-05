@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(44, 37, 37);
+    margin: 0;
+    padding: 0;         
+}
+
+.calculadora{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20%;
+    background-color: rgba(8, 151, 151, 0.966);
+    backdrop-filter: blur(10px);    
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: -5;
+    text-align: center;        
+}
+
+.calculadora{
+    color: white;
+}
+
+select{
+    width: 10%;
+    margin-top: -9;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    background: #035d81;
+    color: rgb(255, 255, 255);
+}
+
+select option:nth-child(1){
+    background-color: rgb(2, 47, 90);
+    cursor: pointer;
+}
+select option:nth-child(2){
+    background-color: #340a96;
+    cursor: pointer;
+}
+select option:nth-child(3){
+    background-color: #c40e0e;
+    cursor: pointer;
+}
+select option:nth-child(4){
+    background-color: #0f4d94;
+    cursor: pointer;
+}
+ 
+input[type="text"]{
+    width: 90%;
+    height: 10px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background: #035d81;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+input[type="submit"]{
+    /*background:rgb(137, 190, 199);*/
+    background: #FFA15F;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: 100px;
+    height: 30px;
+    color: black;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #45a049;
+  }
+
+h2{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
